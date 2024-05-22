@@ -1,0 +1,101 @@
+body {
+    font-family: Monaco, monospace;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 36px;
+}
+
+.container {
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.container img {
+    max-width: 600px;
+    height: auto;
+    margin-right: 30px;
+}
+
+.container .text {
+    max-width: 600px;
+}
+
+.photo-row {
+    display: flex;
+}
+
+.photo {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.photo img {
+    max-width: 100%;
+    height: auto;
+}
+
+.photo p {
+    margin-top: 0px;
+}
+
+.portfolio-item {
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 30px;
+    max-width: 80%; /* Adjust the maximum width as needed */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin: 0 15px; /* Reduce the left and right margins */
+    text-align: left;
+    border: 2px solid #d4d4d4; /* Change color to red */
+    border-radius: 10px;
+
+}
+
+.portfolio-item img {
+    max-width: 600px;
+    height: auto;
+    margin-right: 30px;
+    border-radius: 10px;
+}
+
+.linkedin-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0077B5;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+
+.linkedin-button:hover {
+    background-color: #005f91;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
